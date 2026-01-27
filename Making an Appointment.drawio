@@ -1,0 +1,67 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="oRtQ7kR1xcrKuy4uxMzj">
+    <mxGraphModel dx="1042" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a8uSSQGUygbra82e6J9g-9" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a8uSSQGUygbra82e6J9g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-10" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a8uSSQGUygbra82e6J9g-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-2" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="Calendar&lt;div&gt;datetime in&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="50" x="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-11" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a8uSSQGUygbra82e6J9g-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="get date/time" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Check Calendar" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-13" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="a8uSSQGUygbra82e6J9g-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-14" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="480" />
+              <mxPoint x="540" y="200" />
+            </Array>
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="acceptable date/time" vertex="1">
+          <mxGeometry height="100" width="100" x="350" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="record appointment in calendar" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="end" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-12" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="a8uSSQGUygbra82e6J9g-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="455" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="408" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="a8uSSQGUygbra82e6J9g-17" edge="1" parent="1" source="a8uSSQGUygbra82e6J9g-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="a8uSSQGUygbra82e6J9g-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
