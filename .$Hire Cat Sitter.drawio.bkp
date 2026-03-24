@@ -1,0 +1,70 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="hmOPodDeqNl_sFJvz2bk">
+    <mxGraphModel dx="1212" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PTvNEeqVumda-yJpylvd-8" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PTvNEeqVumda-yJpylvd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=23;" value="start" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;" value="number of days" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-10" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PTvNEeqVumda-yJpylvd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-3" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;costPerDay(days)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-11" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PTvNEeqVumda-yJpylvd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-4" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;costOFTravel(days, kilometers)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-12" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PTvNEeqVumda-yJpylvd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-5" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;labelPosition=center;align=center;fontSize=20;" value="calculatTip(totalCost)" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-6" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=15;" value="Final Cost" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;End&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="70" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-9" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.59;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" target="PTvNEeqVumda-yJpylvd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-13" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PTvNEeqVumda-yJpylvd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-18" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="PTvNEeqVumda-yJpylvd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-14" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="costPerDay(days)" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-15" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Return&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-16" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;days * 50&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="50" x="470" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-17" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;End&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="375" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-19" edge="1" parent="1" source="PTvNEeqVumda-yJpylvd-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="PTvNEeqVumda-yJpylvd-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PTvNEeqVumda-yJpylvd-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=31;" value="For you to do, draw other 2 functions" vertex="1">
+          <mxGeometry height="130" width="325" x="395" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
