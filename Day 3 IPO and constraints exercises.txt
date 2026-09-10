@@ -1,0 +1,66 @@
+1. Write an application that will calculate that will output the age of a dog in dog years
+
+input
+what is the input? 
+
+process
+converts the input into dog years
+
+output
+output the age in dog years
+
+constraints
+input must be positive
+
+Write an application that will calculate that will output the age of a dog in dog years given the age of the dog in human years.
+
+2. Given a user’s search criteria, perform a search in a search engine.
+
+input
+given search criteria
+
+process
+perform a search using a search engine
+
+output
+????????? The search results in a list
+
+constraints
+10 items per display page
+
+Given a user’s search criteria, perform a search in a search engine and display results on the screen page. Limit the list to 10 items per page.
+
+3. Calculate a person’s smart phone usage
+
+input:
+
+values from the cell phone
+
+process:
+
+????? overall?, by category
+
+output:
+smart phone usage
+
+Constraints:
+usage in minutes
+
+Calculate a person’s smart phone usage for calls, texting and apps
+
+4.Given a person’s age and height, calculate that person’s ideal heart
+rate during aerobic exercise and output it as Beats Per Minute (BPM).
+
+input:
+
+age and height
+process:
+
+calculate that person’s ideal heart
+rate during aerobic exercise
+output:
+
+Beats Per Minute 
+
+constraints
+values cannot be negative
