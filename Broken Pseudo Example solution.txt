@@ -1,0 +1,88 @@
+FUNCTION getPageCount(document)
+	OUTPUT pageCount		// application counts	the number of pages
+	RETURN pageCount
+ENDFUNCTION
+
+FUNCTION printPages(document)
+	DECLARE pageCount = getPageCount(document)	// get number of 										// pages in document
+	DECLARE pageNumberToPrint = 1
+	WHILE pageNumberToPrint <= pageCount
+		Print pageNumberToPrint
+	ENDWHILE
+	RETURN
+ENDFUNCTION
+
+START
+INPUT document	//document the user wants to print
+printPages(document)
+END
+
+error: the getPageCount does not actually count the number of pages.
+concern: how is the pageCount value actually created?
+solution: assume that each page is n lines long and one can obtain the number of lines
+	   in the document
+
+FUNCTION getPageCount(document, linesPerPage)
+	DECLARE numberOfLines = 0
+	DECLARE pageCount = 0
+	//pre-test loop.
+	//the loop will only be done if one has not reached the end of the document
+	While document not end of file
+		SET numberOfLines = numberOfLines + 1
+		MOVE to next line
+	ENDWHILE
+	SET pageCount = ROUNDUP (numberOfLines / linesPerPage) //integer
+	OUTPUT pageCount
+	RETURN pageCount
+ENDFUNCTION
+
+error: function infers the document pages will be printed
+concern: there is no logic to actually print the document
+solution: add the needed logic to print the document
+
+refinement: add code to handle changing page line length
+
+FUNCTION printPages(document)
+	DECLARE linesPerPage = getLinesPerPage()
+
+	// get number of pages in document
+	DECLARE pageCount = getPageCount(document, linesPerPage)
+	DECLARE lineCounter = 0
+	//print the document
+	DECLARE pageNumberToPrint = 1
+	IF pageCount == 0 THEN
+		PRINT The document is empty"
+	ELSE
+		WHILE pageNumberToPrint <= pageCount
+			SET lineCounter = 0
+			
+			//print the next linesPerPage line of the document
+			WHILE lineCounter < 50 AND document not end of file
+				PRINT document line
+				lineCounter = lineCounter + 1
+			ENDWHILE
+		
+			Print pageNumberToPrint
+			SET pageNumberToPrint = pageNumberToPrint + 1
+		ENDWHILE
+	ENDIF
+	RETURN
+ENDFUNCTION
+
+FUNCTION getLinesPerPage()
+	DECLARE inputValue
+	PRINT "Enter the maximum number of lines to be print per page: "
+	//number should be positive or 0
+	DO
+		INPUT inputValue
+		IF inputValue < 0 THEN
+			PRINT inputValue + “ is not a positive or 0 value. Try again”
+		ENDIF
+	UNTIL inputValue >= 0
+	RETURN inputValue
+ENDFUNCTION
+
+START
+INPUT document	//document the user wants to print
+printPages(document)
+END
