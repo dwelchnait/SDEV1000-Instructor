@@ -1,0 +1,90 @@
+1. Write the pseudocode required to calculate and print the mean grade
+for the Science course. Assume the grades are in a list called
+“scienceGrades.”
+
+START
+
+DECLARE sum = 0
+DECLARE scienceGrades = a list of student grades in an array
+DELCARE numberOfStudents = length of the array
+
+//option 1
+DECLARE index = 0
+WHILE index < numberOfStudents -1
+	sum = sum + scienceGrades[index]
+	index = index + 1
+ENDWHILE
+
+//option 2
+FOR index = 0 < numbeberOfStudents - 1 BY 1
+	sum = sum + scienceGrades[index]
+ENDFOR
+
+//option 3
+FOR each grade in scienceGrades
+	sum = sum + grade
+ENDFOR
+
+DECLARE mean = sum / numberOfStudents
+
+PRINT "The mean grade for the science course is: " + mean
+
+END
+
+2. Write the pseudocode required to identify the median for a list called
+“numList”, which can contain any number of items. The pseudocode
+must account for lists with even and odd number of items. Assume the
+list is sorted. Assume integer division is used (no remainder on division
+operations).
+
+START
+
+DECLARE numList = sorted list of integer values
+DECLARE listSize = number of values in numList
+DECLARE median = 0
+
+//median is the index that is half of the list
+DECLARE medIndex = listSize / 2
+
+IF (listSize MOD 2) == 0 THEN
+	DECLARE lowIndex = medIndex - 1
+	DECLARE medianSum =numList[lowIndex] + numList[medIndex]
+	SET median = mediumSum / 2
+ELSE
+	SET median = numList[medIndex]
+ENDIF
+PRINT " The median is " + median
+
+END
+
+3. Write the pseudocode required to identify the range for a list called
+“numList”, which can contain any number of items. The list is NOT
+sorted. Assume the numbers are all positive and less than 1000.
+
+START
+
+DECLARE numList = a unsorted list of positive values from 0 to 1000
+DECLARE listSize = number of values in numList
+DECLARE highestValue = -1
+DECLARE lowestValue = 1001
+
+FOR index = 0 to listSize -1 by 1
+	//is value new higestValue
+	IF numList[index] > highestValue THEN
+		SET highestValue = numList[index]
+	ENDIF
+	//is value new lowestValue
+	IF numList[index] < lowestValue THEN
+		SET lowestValue = numList[index]
+	ENDIF
+
+ENDFOR
+
+PRINT "The range of values in the list is from (" + lowestValue + " to " + highestValue + ") " + highestValue - lowestValue
+
+
+
+END
+
+4. What is the probability and percentage of rolling a number greater than
+15 on a twenty-sided die? Show your reasoning
